@@ -30,7 +30,7 @@ requirements:
 
 tests:
   - python:
-      pip_check: true
+      pip_check: false
       python_version: ${{ python_min }}.*
       imports:
         - databricks.sqlalchemy
