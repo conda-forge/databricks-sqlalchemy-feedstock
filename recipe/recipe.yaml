@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: databricks-sqlalchemy
-  version: "2.0.5"
+  version: "2.0.6"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/databricks_sqlalchemy-${{ version }}.tar.gz
-  sha256: 2949ffc17fb4e1dc5a094491e0d81d333d13ddc181066adf9f57185bff16b5e0
+  sha256: 9e4edfcb1687b8c8fd420de0d83ba3a9cccf9cbbd16ca36d73a2aa42ba0abb88
 
 build:
   number: 0
