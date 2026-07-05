@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: databricks-sqlalchemy
-  version: "2.0.9"
+  version: "2.0.10"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/databricks_sqlalchemy-${{ version }}.tar.gz
-  sha256: 9975830df92541485c0560998ee90f1ac0f76d9d3de4940582e951c09b49b9ed
+  sha256: 75e75b1309a6cd9b8442060523f1241254766d90c130b6fc9575a0e2dd692e39
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - databricks-sql-connector >=4.0.0
+    - databricks-sql-connector >=4.0.1
     - pyarrow >=14.0.1
     - sqlalchemy >=2.0.21
 
