@@ -24,7 +24,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - databricks-sql-connector >=4.0.0
+    - databricks-sql-connector >=4.0.1
     - pyarrow >=14.0.1
     - sqlalchemy >=2.0.21
 
